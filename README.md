@@ -1,3 +1,27 @@
+Prerequisite -
+Visual Studio 2022
+Sql Server Management Studio 2018
+
+Services -
+Business logic
+Zip.InstallmentService
+Test Project 
+Zip.InstallmentService.Test
+Exposed Layer
+InstallmentCalculationAPI
+
+Nuget Packages 
+NLog(5.1.0)
+System.Data.SqlClient(4.8.5)
+Misrosoft.Extension.Configuration(7.0.0)
+Moq(4.18.3)
+
+Logging 
+nlog.config
+path - {baseDir}\log-{shortdate}.log
+
+
+
 # Zip Software Engineer Interview
 
 ## Overview
